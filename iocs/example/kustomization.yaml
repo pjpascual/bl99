@@ -1,0 +1,9 @@
+namespace: bl99
+
+resources:
+- ns.yaml
+- helm.yaml
+
+images:
+- name: ghcr.io/epics-containers/epics-areadetector-run
+  newTag: "1.2.1"
